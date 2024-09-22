@@ -13,6 +13,8 @@
 		0D804AFB2C9CA5F200243919 /* CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D804AFA2C9CA5F200243919 /* CustomMethods.swift */; };
 		0D804AFD2C9CAC0D00243919 /* RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D804AFC2C9CAC0D00243919 /* RNEventEmitter.swift */; };
 		0D804AFF2C9CAC1C00243919 /* RNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D804AFE2C9CAC1C00243919 /* RNEventEmitter.m */; };
+		0DC2B00B2CA089E3005E1C82 /* ToastModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B00A2CA089E3005E1C82 /* ToastModule.m */; };
+		0DC2B00D2CA08A24005E1C82 /* ToastModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -39,6 +41,8 @@
 		0D804AFA2C9CA5F200243919 /* CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMethods.swift; sourceTree = "<group>"; };
 		0D804AFC2C9CAC0D00243919 /* RNEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNEventEmitter.swift; sourceTree = "<group>"; };
 		0D804AFE2C9CAC1C00243919 /* RNEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEventEmitter.m; sourceTree = "<group>"; };
+		0DC2B00A2CA089E3005E1C82 /* ToastModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToastModule.m; sourceTree = "<group>"; };
+		0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModule.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BridgingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BridgingProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = BridgingProject/AppDelegate.mm; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				0D804AF92C9CA5F200243919 /* BridgingProject-Bridging-Header.h */,
 				0D804AFC2C9CAC0D00243919 /* RNEventEmitter.swift */,
 				0D804AFE2C9CAC1C00243919 /* RNEventEmitter.m */,
+				0DC2B00A2CA089E3005E1C82 /* ToastModule.m */,
+				0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */,
 			);
 			name = BridgingProject;
 			sourceTree = "<group>";
@@ -425,9 +431,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				0DC2B00B2CA089E3005E1C82 /* ToastModule.m in Sources */,
 				0D804AFF2C9CAC1C00243919 /* RNEventEmitter.m in Sources */,
 				0D804AFB2C9CA5F200243919 /* CustomMethods.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0DC2B00D2CA08A24005E1C82 /* ToastModule.swift in Sources */,
 				0D804AF82C9CA50000243919 /* CustomMethods.m in Sources */,
 				0D804AFD2C9CAC0D00243919 /* RNEventEmitter.swift in Sources */,
 			);
