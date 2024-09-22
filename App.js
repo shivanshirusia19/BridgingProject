@@ -11,7 +11,7 @@ import {
 
 const App = () => {
   //const {CustomMethods, MyModule} = NativeModules;
-  const {ToastModule} = NativeModules;
+  const {ToastModule, MyNativeModule} = NativeModules;
 
   useEffect(() => {
     const event = new NativeEventEmitter(NativeModules.RNEventEmitter);
@@ -24,6 +24,10 @@ const App = () => {
     ToastModule.show(message, duration);
   };
 
+  const callNativeAPI = params => {
+    return MyNativeModule.callNativeAPI(params);
+  };
+
   return (
     <View style={styles.container}>
       <TouchableOpacity
@@ -32,6 +36,13 @@ const App = () => {
           showToast('Hellooooooo!', 2000);
           // CustomMethods.MyMethod('Hellooooo');
           // MyModule.myMethod('Helloooo');
+          MyNativeModule.callNativeAPI('Hiii')
+            .then(response => {
+              console.log(response);
+            })
+            .catch(error => {
+              console.error(error);
+            });
         }}>
         <View style={styles.button}>
           <Text>Click Here</Text>
