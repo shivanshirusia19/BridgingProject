@@ -8,6 +8,7 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Arrays;
 
 public class MyAppPackage implements ReactPackage {
 
@@ -21,6 +22,6 @@ public class MyAppPackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Collections.emptyList();
+        return Arrays.<ViewManager>asList(new CustomTagManager());
     }
 }

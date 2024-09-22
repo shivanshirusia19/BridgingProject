@@ -14,6 +14,7 @@
 		0DC2B00D2CA08A24005E1C82 /* ToastModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */; };
 		0DC2B00F2CA0982D005E1C82 /* MyAppPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B00E2CA0982D005E1C82 /* MyAppPackage.m */; };
 		0DC2B0112CA09991005E1C82 /* MyNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B0102CA09991005E1C82 /* MyNativeModule.swift */; };
+		0DC2B0152CA0A0F2005E1C82 /* CustomTagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC2B0142CA0A0F2005E1C82 /* CustomTagManager.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -41,6 +42,7 @@
 		0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModule.swift; sourceTree = "<group>"; };
 		0DC2B00E2CA0982D005E1C82 /* MyAppPackage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppPackage.m; sourceTree = "<group>"; };
 		0DC2B0102CA09991005E1C82 /* MyNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNativeModule.swift; sourceTree = "<group>"; };
+		0DC2B0142CA0A0F2005E1C82 /* CustomTagManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTagManager.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* BridgingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = BridgingProject/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = BridgingProject/AppDelegate.mm; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0DC2B00C2CA08A24005E1C82 /* ToastModule.swift */,
 				0DC2B00E2CA0982D005E1C82 /* MyAppPackage.m */,
 				0DC2B0102CA09991005E1C82 /* MyNativeModule.swift */,
+				0DC2B0142CA0A0F2005E1C82 /* CustomTagManager.m */,
 			);
 			name = BridgingProject;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				0DC2B0112CA09991005E1C82 /* MyNativeModule.swift in Sources */,
 				0D804AFB2C9CA5F200243919 /* CustomMethods.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0DC2B0152CA0A0F2005E1C82 /* CustomTagManager.m in Sources */,
 				0DC2B00D2CA08A24005E1C82 /* ToastModule.swift in Sources */,
 				0D804AFD2C9CAC0D00243919 /* RNEventEmitter.swift in Sources */,
 			);
