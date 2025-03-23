@@ -50,6 +50,14 @@ public class MainApplication extends Application implements ReactApplication {
   }
 
   @Override
+  protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+        new MainReactPackage(),
+        new CustomBridgePackage()
+    );
+  }
+
+  @Override
   public void onCreate() {
     super.onCreate();
     // If you opted-in for the New Architecture, we enable the TurboModule system
